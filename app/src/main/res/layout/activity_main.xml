@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <com.example.calendar_weekly.calendarWeekly.CalendarWeekly
+        android:id="@+id/calendarWeekly"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

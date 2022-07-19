@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.calendarWeekly.clickDay = {
+            Log.i("TAG_", SimpleDateFormat("d MMMM yyyy").format(Date(it)))
+        }
     }
 }
