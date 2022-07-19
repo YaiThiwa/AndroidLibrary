@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonSunday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/sundayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedSunday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/sundayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/sundayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="1"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonMonday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/mondayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedMonday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/mondayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/mondayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonTuesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tuesdayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedTuesday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/tuesdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tuesdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="3"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonWednesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/wednesdayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedWednesday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/wednesdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/wednesdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="4"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonThursday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/thursdayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedThursday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/thursdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/thursdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="5"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonFriday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/fridayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedFriday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/fridayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/fridayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonSaturday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/saturdayIsNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now"
+            android:textSize="11sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imageSelectedSaturday"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/saturdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/background_selected_day"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/saturdayIsNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="7"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

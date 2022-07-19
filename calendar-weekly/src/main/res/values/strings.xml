@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="monday">จ.</string>
+    <string name="tuesday">อ.</string>
+    <string name="wednesday">พ.</string>
+    <string name="thursday">พฤ.</string>
+    <string name="friday">ศ.</string>
+    <string name="saturday">ส.</string>
+    <string name="sunday">อา.</string>
+    <string name="now">Now</string>
+</resources>
